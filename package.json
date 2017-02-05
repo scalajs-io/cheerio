@@ -1,0 +1,9 @@
+{
+  "name": "scalajs-io",
+  "version": "7.4.0",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "source-map": "^0.5.6"
+  }
+}
