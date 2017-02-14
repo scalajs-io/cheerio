@@ -1,6 +1,6 @@
 {
-  "name": "scalajs-io",
-  "version": "7.4.0",
+  "name": "cheerio-sjs",
+  "version": "0.22.0",
   "private": true,
   "dependencies": {
     "cheerio": "^0.22.0",
