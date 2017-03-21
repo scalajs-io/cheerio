@@ -6,8 +6,8 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "0.22.0-3"
-val scalaJsIOVersion = "0.3.0.7"
+val apiVersion = "0.22.0-4"
+val scalaJsIOVersion = "0.3.0.8"
 val scalaJsVersion = "2.12.1"
 
 homepage := Some(url("https://github.com/scalajs.io/cheerio"))
@@ -27,9 +27,9 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
 	    "org.scala-lang" % "scala-reflect" % scalaJsVersion,
 	    "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
-      "io.scalajs" %%% "jquery" % "3.1.1-3",
+      "io.scalajs" %%% "jquery" % "3.1.1-4",
 	    "io.scalajs" %%% "nodejs" % scalaJsIOVersion,
-      "io.scalajs.npm" %%% "htmlparser2" % "3.9.2-3"
+      "io.scalajs.npm" %%% "htmlparser2" % "3.9.2-4"
   ))
 
 /////////////////////////////////////////////////////////////////////////////////
