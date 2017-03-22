@@ -1,6 +1,6 @@
 {
   "name": "cheerio-sjs",
-  "version": "0.22.0-4",
+  "version": "0.4.0-pre1",
   "private": true,
   "dependencies": {
     "cheerio": "^0.22.0",
