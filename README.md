@@ -50,7 +50,7 @@ println(s"after:  $output") // => <h2 class="title welcome">Hello there!</h2>
 To add the `Cheerio` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "cheerio" % "0.4.0-pre5"
+libraryDependencies += "io.scalajs.npm" %%% "cheerio" % "0.4.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
