@@ -8,7 +8,7 @@ Fast, flexible & lean implementation of core jQuery designed specifically for th
 
 ### Build Requirements
 
-* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
+* [SBT v1.2.x](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -50,7 +50,7 @@ println(s"after:  $output") // => <h2 class="title welcome">Hello there!</h2>
 To add the `Cheerio` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "cheerio" % "0.4.2"
+libraryDependencies += "io.scalajs.npm" %%% "cheerio" % "0.5.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
